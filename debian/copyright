@@ -2,6 +2,12 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: slurm-spank-plugin-oom-score-adj
 Source: https://github.com/edf-hpc/slurm-spank-plugin-oom-score-adj/
 
+Files: debian/*
+Copyright: Copyright (C) 2015 EDF SA
+           2015  Ana Guerrero <ana-externe.guerrero@edf.fr>
+           2017 Scibian Project <legal@scibian.org>
+License: CeCILL-C
+
 Files: *
 Copyright: Copyright (C) 2015 EDF SA
            2015  Ana Guerrero <ana-externe.guerrero@edf.fr>
