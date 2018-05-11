@@ -1,3 +1,9 @@
+slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci9u1) scibian9; urgency=medium
+
+  * Scibian9 Release.
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Fri, 11 May 2018 17:08:19 +0200
+
 slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci8u1) scibian8; urgency=medium
 
   * Scibian8 rebuild.
