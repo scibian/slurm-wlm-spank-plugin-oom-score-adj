@@ -3,7 +3,7 @@
 
 Name: slurm-spank-plugin-%{__plugin}
 Version: 3.9.1
-Release: 1
+Release: 1%{?dist}.edf
 Summary: Slurm spank plugin for OOM killer score advisory
 Source: %{name}-%{version}.tar.gz
 
@@ -46,4 +46,5 @@ rm -rf %{buildroot}
 #%config %{_sysconfdir}/slurm/plugstack.conf.d/slurm-spank-%{__plugin}.conf
 
 %changelog
-
+* Thu Dec 17 2020 ccn Hpc <ccni-hpc@edf.fr> 0.1-1el8.edf
+- Initial RPM release
