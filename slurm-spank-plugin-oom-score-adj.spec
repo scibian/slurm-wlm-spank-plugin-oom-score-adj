@@ -1,7 +1,7 @@
 %define __plugin oom-score-adj
 %define __lib_dir %{_prefix}/lib
 
-Name: slurm-spank-plugin-%{__plugin}
+Name: slurm-spank-plugin-oom-score-adj
 Version: 3.9.1
 Release: 1%{?dist}.edf
 Summary: Slurm spank plugin for OOM killer score advisory
@@ -46,5 +46,7 @@ rm -rf %{buildroot}
 #%config %{_sysconfdir}/slurm/plugstack.conf.d/slurm-spank-%{__plugin}.conf
 
 %changelog
-* Thu Dec 17 2020 ccn Hpc <ccni-hpc@edf.fr> 0.1-1el8.edf
+* Thu Dec 17 2020 ccn Hpc <ccni-hpc@edf.fr> 3.9.1-2el8.edf
+- Replace macro plugin with his real name to fix issue with jenkins
+* Thu Dec 17 2020 ccn Hpc <ccni-hpc@edf.fr> 3.9.1-1el8.edf
 - Initial RPM release
