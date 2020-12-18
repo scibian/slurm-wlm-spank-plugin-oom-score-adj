@@ -1,3 +1,11 @@
+slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci8u2) scibian8; urgency=medium
+
+  * Rebuild for slurm 20.02
+  * Bump compat to 9
+  * Migrate /etc/{slurm-llnl→slurm}
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Fri, 18 Dec 2020 10:17:05 +0100
+
 slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci8u1) scibian8; urgency=medium
 
   * Scibian8 rebuild.
