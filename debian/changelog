@@ -1,9 +1,3 @@
-slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci10u1) scibian10; urgency=medium
-
-  * New release for scibian10.
-
- -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Thu, 30 Jan 2020 14:55:07 +0100
-
 slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci9u1) scibian9; urgency=medium
 
   * Scibian9 Release.
