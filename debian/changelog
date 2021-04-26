@@ -1,3 +1,9 @@
+slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci8u3) scibian8; urgency=medium
+
+  * Rebuild for slurm 20.11
+
+ -- Romaric Kanyamibwa <romaric-externe.kanyamibwa@edf.fr>  Mon, 26 Apr 2021 15:03:18 +0200
+
 slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci8u2) scibian8; urgency=medium
 
   * Rebuild for slurm 20.02
