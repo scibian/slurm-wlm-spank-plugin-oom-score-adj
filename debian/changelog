@@ -1,3 +1,7 @@
+slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci10u3) scibian10; urgency=medium
+
+  * Rebuild for slurm 20.11
+
 slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci10u2) scibian10; urgency=medium
 
   * Rebuild for slurm 20.02
