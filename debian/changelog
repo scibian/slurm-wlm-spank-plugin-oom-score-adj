@@ -1,3 +1,9 @@
+slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci9u5) scibian9; urgency=medium
+
+  * Rebuild for slurm 23.02
+
+ -- Nilce BOUSSAMBA <nilce-externe.boussamba@edf.fr>  Wed, 19 Jul 2023 15:59:52 +0200
+
 slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci9u4) scibian9; urgency=medium
 
   * Rebuild for slurm 21.08.7
