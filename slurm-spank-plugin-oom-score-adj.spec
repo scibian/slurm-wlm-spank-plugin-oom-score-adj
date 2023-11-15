@@ -2,7 +2,7 @@
 %define __lib_dir %{_prefix}/lib
 
 Name: slurm-spank-plugin-oom-score-adj
-Version: 3.9.1
+Version: 3.9.3
 Release: 1%{?dist}.edf
 Summary: Slurm spank plugin for OOM killer score advisory
 Source: %{name}-%{version}.tar.gz
@@ -13,8 +13,8 @@ Vendor: none
 URL: https://github.com/scibian/slurm-spank-plugin-oom-score-adj
 Packager: Scibian Project <packaging@scibian.org>
 
-BuildRequires: slurm-devel
-Requires: slurm
+BuildRequires: slurm-devel >= 23, slurm-devel < 24
+Requires: slurm >= 23, slurm < 24
 
 %description
 Slurm spank plugin for OOM killer score advisory
@@ -46,6 +46,8 @@ rm -rf %{buildroot}
 #%config %{_sysconfdir}/slurm/plugstack.conf.d/slurm-spank-%{__plugin}.conf
 
 %changelog
+* Wed Nov 15 2023 Mathieu Chouquet-Stringer <mathieu-externe.chouquet-stringer@edf.fr> 3.9.3-1el8.edf
+- Replace macro plugin with his real name to fix issue with jenkins
 * Thu Dec 17 2020 ccn Hpc <ccni-hpc@edf.fr> 3.9.1-2el8.edf
 - Replace macro plugin with his real name to fix issue with jenkins
 * Thu Dec 17 2020 ccn Hpc <ccni-hpc@edf.fr> 3.9.1-1el8.edf
