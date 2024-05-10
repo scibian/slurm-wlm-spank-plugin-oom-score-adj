@@ -1,3 +1,9 @@
+slurm-wlm-spank-plugin-oom-score-adj (0.20240510sci11u6) scibian11; urgency=medium
+
+  * bump libslurm-dev to 23.11.4
+
+ -- Kwame Amedodji <kwame-externe.amedodji@edf.fr>  Fri, 10 May 2024 11:37:00 +0200
+
 slurm-wlm-spank-plugin-oom-score-adj (0.20151209sci11u5) scibian11; urgency=medium
 
   * enforce slurm version to 23.2
