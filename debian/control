@@ -2,7 +2,7 @@ Source: slurm-wlm-spank-plugin-oom-score-adj
 Section: libs
 Priority: extra
 Maintainer: Scibian Project <packaging@scibian.org>
-Build-Depends: debhelper (>= 10), libslurm-dev (>= 23.02.3-0)
+Build-Depends: debhelper (>= 10), libslurm-dev (>= 23.11.4)
 Standards-Version: 3.9.1
 Vcs-Git: https://github.com/scibian/slurm-wlm-spank-plugin-oom-score-adj.git
 Vcs-Browser: https://github.com/scibian/slurm-wlm-spank-plugin-oom-score-adj
