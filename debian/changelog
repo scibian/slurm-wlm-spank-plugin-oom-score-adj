@@ -1,3 +1,9 @@
+slurm-wlm-spank-plugin-oom-score-adj (0.20240510sci11u7) scibian11; urgency=medium
+
+  * Rebuild for slurm 24.05
+
+ -- Thomas HAMEL <thomas-t.hamel@edf.fr>  Mon, 01 Jul 2024 13:16:07 +0200
+
 slurm-wlm-spank-plugin-oom-score-adj (0.20240510sci11u6) scibian11; urgency=medium
 
   * bump libslurm-dev to 23.11.4
